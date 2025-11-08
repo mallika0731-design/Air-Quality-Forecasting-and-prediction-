@@ -12,7 +12,7 @@ It combines **exploratory data analysis**, **machine learning**, and **time seri
 4. [Usage](#usage)  
 5. [Project Structure](#project-structure)  
 6. [Results](#results)  
-7. [Technologies Used](#technologies-used)  
+
 
 ---
 
