@@ -13,10 +13,7 @@ It combines **exploratory data analysis**, **machine learning**, and **time seri
 5. [Usage](#usage)  
 6. [Project Structure](#project-structure)  
 7. [Results](#results)  
-8. [Technologies Used](#technologies-used)  
-9. [Contributing](#contributing)  
-10. [License](#license)  
-11. [Author](#author)  
+8. [Technologies Used](#technologies-used)    
 
 ---
 
@@ -95,6 +92,7 @@ Air Quality Project.py         # Main Python analysis script
 Air quality India.csv          # Dataset (2017-2022)
 README.md                      # Project documentation (this file)
 requirements.txt (optional)    # Dependency list for quick setup
+
 📈 Results
 Five key analysis plots:
 
@@ -113,6 +111,64 @@ Model evaluation metrics (MAE, RMSE, R²) printed for each model
 Forecasted % increase in daily PM2.5 displayed at the end
 
 🧰 Technologies Used
+Python 3
+
+pandas, numpy – data analysis
+
+matplotlib – visualization
+
+scikit-learn – machine learning, scaling, tuning
+
+xgboost – advanced regression
+
+statsmodels – ARIMA time series forecasting
+
+
+Install dependencies:
+
+pip install pandas numpy matplotlib statsmodels scikit-learn xgboost
+
+▶️ Usage
+
+Place the dataset file Air quality India.csv in the project folder.
+
+Run the main analysis script:
+
+python "Air Quality Project.py"
+
+
+View plots as they appear; follow console outputs for model evaluation and forecast summaries.
+
+Close each plot window to proceed to the next.
+
+The script ends with a statement showing predicted percentage increase in PM2.5 for the next 30 days.
+
+📁 Project Structure
+Air Quality Project.py         # Main Python analysis script
+Air quality India.csv          # Dataset (2017-2022)
+README.md                      # Project documentation (this file)
+requirements.txt (optional)    # Dependency list for quick setup
+
+📈 Results
+
+Five key analysis plots:
+
+PM2.5 over time
+
+Daily trend
+
+Yearly trend
+
+Actual vs Predicted (ML models)
+
+Future forecast (ARIMA)
+
+Model evaluation metrics (MAE, RMSE, R²) printed for each model
+
+Forecasted % increase in daily PM2.5 displayed at the end
+
+🧰 Technologies Used
+
 Python 3
 
 pandas, numpy – data analysis
