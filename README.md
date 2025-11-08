@@ -9,11 +9,10 @@ It combines **exploratory data analysis**, **machine learning**, and **time seri
 1. [Project Overview](#project-overview)  
 2. [Dataset](#dataset)  
 3. [Features](#features)  
-4. [Installation](#installation)  
-5. [Usage](#usage)  
-6. [Project Structure](#project-structure)  
-7. [Results](#results)  
-8. [Technologies Used](#technologies-used)  
+4. [Usage](#usage)  
+5. [Project Structure](#project-structure)  
+6. [Results](#results)  
+7. [Technologies Used](#technologies-used)  
 
 ---
 
@@ -60,70 +59,46 @@ The goal is to **analyze long-term pollution trends** and **predict future PM2.5
 
 ---
 
-## 🧩 Installation  
+📁 Project Structure
+Air Quality Project.py       # Main Python analysis script  
+Air quality India.csv        # Dataset (2017-2022)  
+README.md                    # Project documentation (this file)  
+requirements.txt (optional)  # Dependency list for quick setup  
 
-Clone this repository:  
-```bash
-git clone https://github.com/yourusername/repo-name.git
-cd repo-name
-Install dependencies:
 
-bash
-Copy code
-pip install pandas numpy matplotlib statsmodels scikit-learn xgboost
-▶️ Usage
-Place the dataset file Air quality India.csv in the project folder.
+📊 Results
 
-Run the main analysis script:
 
-bash
-Copy code
-python "Air Quality Project.py"
-View plots as they appear; follow console outputs for model evaluation and forecast summaries.
-
-Close each plot window to proceed to the next.
-
-The script ends with a statement showing predicted percentage increase in PM2.5 for the next 30 days.
-
-##  📁 Project Structure
-text
-Copy code
-Air Quality Project.py         # Main Python analysis script
-Air quality India.csv          # Dataset (2017-2022)
-README.md                      # Project documentation (this file)
-requirements.txt (optional)    # Dependency list for quick setup
-
-##  📈 Results
 Five key analysis plots:
+
 
 PM2.5 over time
 
+
 Daily trend
+
 
 Yearly trend
 
+
 Actual vs Predicted (ML models)
 
-Future forecast (ARIMA)
 
-Model evaluation metrics (MAE, RMSE, R²) printed for each model
-
-Forecasted % increase in daily PM2.5 displayed at the end
-
-##  🧰 Technologies Used
-Python 3
-
-pandas, numpy – data analysis
-
-matplotlib – visualization
-
-scikit-learn – machine learning, scaling, tuning
-
-xgboost – advanced regression
-
-statsmodels – ARIMA time series forecasting
+Future Forecast (ARIMA)
 
 
 
 
+Evaluation metrics printed in console:
 
+
+MAE, RMSE, R² for each model
+
+
+Forecast summary:
+
+
+Predicted percentage increase in daily PM2.5 for the next 30 days
+
+
+---
