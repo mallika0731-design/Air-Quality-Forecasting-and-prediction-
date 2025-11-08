@@ -85,14 +85,15 @@ Close each plot window to proceed to the next.
 
 The script ends with a statement showing predicted percentage increase in PM2.5 for the next 30 days.
 
-📁 Project Structure
+##  📁 Project Structure
 text
 Copy code
 Air Quality Project.py         # Main Python analysis script
 Air quality India.csv          # Dataset (2017-2022)
 README.md                      # Project documentation (this file)
 requirements.txt (optional)    # Dependency list for quick setup
-📈 Results
+
+##  📈 Results
 Five key analysis plots:
 
 PM2.5 over time
@@ -109,7 +110,7 @@ Model evaluation metrics (MAE, RMSE, R²) printed for each model
 
 Forecasted % increase in daily PM2.5 displayed at the end
 
-🧰 Technologies Used
+##  🧰 Technologies Used
 Python 3
 
 pandas, numpy – data analysis
