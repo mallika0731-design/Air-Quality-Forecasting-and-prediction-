@@ -58,8 +58,24 @@ The goal is to **analyze long-term pollution trends** and **predict future PM2.5
   - Summary statement of predicted % increase in daily PM2.5  
 
 ---
+▶️ Usage
+
+Place the dataset file Air quality India.csv in the project folder.
+
+Run the main analysis script:
+
+python "Air Quality Project.py"
+
+
+View plots as they appear and follow console outputs for model evaluation and forecast summaries.
+
+Close each plot window to proceed to the next.
+
+The script ends with a statement showing the predicted percentage increase in PM2.5 for the next 30 days.
+
 
 📁 Project Structure
+
 Air Quality Project.py       # Main Python analysis script  
 Air quality India.csv        # Dataset (2017-2022)  
 README.md                    # Project documentation (this file)  
